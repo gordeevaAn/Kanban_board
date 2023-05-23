@@ -1,0 +1,25 @@
+.card {
+    position: relative;
+    display: block;
+    max-width: 250px;
+    background-color: #ffffff;
+	padding: 7px 8px;
+    margin-bottom: 8px;
+	border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.card:not(:first-of-type){
+    margin-top: 8px;
+}
+
+/*.buttonDel {
+  display: none;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+.buttonDel:hover {
+    display: flex;
+}*/
+

@@ -1,0 +1,22 @@
+.footer {
+  height: var(--footer-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  background-color: #0067a3;
+  flex-shrink: 0;
+  padding-left: 12px;
+}
+span {
+  margin-left: 24px;
+}
+.copy {
+  margin-right: 20px;
+}
+
+@media (max-width: 420px) {
+  .footer {
+    display: none;
+  }
+}

@@ -1,0 +1,32 @@
+.profile {
+  display: flex;
+  position: relative;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+.up {
+  transform: scaleY(-1);
+}
+
+.menu {
+  position: fixed;
+  top: 45px;
+  right: 16px;
+  min-width: 135px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 8px 12px;
+  z-index: 1;
+}
+
+.div1 {
+  margin-bottom: 8px;
+}
+.div1:hover,
+.div2:hover {
+  border-radius: 2px;
+  background-color: #0079bf;
+}

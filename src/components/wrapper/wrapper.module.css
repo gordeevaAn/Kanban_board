@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  background-color: #0079bf;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+}
+main {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 24px 16px;
+}
